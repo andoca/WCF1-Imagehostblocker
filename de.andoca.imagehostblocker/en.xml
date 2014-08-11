@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.excludeFromIhb"><![CDATA[Deactivate image hoster blacklist]]></item>
+		<item name="wcf.acp.group.option.user.board.excludeFromIhb.description"><![CDATA[Members of this group can post to forbidden image hosts.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.IHB_BLACKLIST"><![CDATA[Blocked image hosts]]></item>
+		<item name="wcf.acp.option.IHB_BLACKLIST.description"><![CDATA[A list of blocked image hosting websites. Give one per line.]]></item>
+		<item name="wcf.acp.option.MODULE_IHB"><![CDATA[Image hoster blacklist]]></item>
+		<item name="wcf.acp.option.MODULE_IHB.description"><![CDATA[Activates the image hoster blacklist]]></item>
+	</category>
+	<category name="de.andoca.ihb">
+		<item name="de.andoca.ihb.imagehostfound"><![CDATA[<p class="error">Your posting contains one or more <strong>links to an external image host</strong>. Please us the <strong>attachement function</strong> provided to add pictures to your post.</p>]]></item>
+	</category>
+</language>

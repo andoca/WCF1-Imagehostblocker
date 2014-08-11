@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de-informal">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.excludeFromIhb"><![CDATA[Imagehoster-Blacklist deaktivieren]]></item>
+		<item name="wcf.acp.group.option.user.board.excludeFromIhb.description"><![CDATA[Mitglieder dieser Gruppe können Links auf Imagehoster setzen, die ansonsten auf der Blacklist verboten sind.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.IHB_BLACKLIST"><![CDATA[Gesperrte Imagehoster]]></item>
+		<item name="wcf.acp.option.IHB_BLACKLIST.description"><![CDATA[Geben Sie an, auf welche Imagehoster keine Links gesetzt werden dürfen bzw. Bilder davon eingebunden werden können. Eine Domain pro Zeile.]]></item>
+		<item name="wcf.acp.option.MODULE_IHB"><![CDATA[Imagehoster Blacklist]]></item>
+		<item name="wcf.acp.option.MODULE_IHB.description"><![CDATA[Aktiviert die Imagehost Blacklist]]></item>
+	</category>
+	<category name="de.andoca.ihb">
+		<item name="de.andoca.ihb.imagehostfound"><![CDATA[<p class="error">Dein Beitrag enthält einen oder mehrere <strong>Links auf externe Bilder-Hoster</strong>. Bitte verwende zum Einfügen von Bildern in deinen Beitrag die <strong>Dateianhangs-Funktion</strong>.</p>]]></item>
+	</category>
+</language>

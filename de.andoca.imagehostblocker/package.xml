@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.andoca.imagehostblocker">
+	<packageinformation>
+		<packagename><![CDATA[Imagehost Blocker - Blacklist Imagehosters in postings]]></packagename>
+		<packageDescription language="de"><![CDATA[Imagehoster sind beliebt, aber für Forenbetreiber problematisch. Verhindern Sie die Verwendung der häufigsten Imagehoster. Beim Speichern wird ein Hinweis angezeigt mit der Aufforderung, die Dateien als Dateianhänge hochzuladen.]]></packageDescription>
+		<packageDescription language="en"><![CDATA[Stop links to image hosters in postings]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<version>1.0.0 beta 2</version>
+		<plugin>com.woltlab.wbb</plugin>
+		<date>2012-03-03</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Andoca Haustier-WG UG (haftungsbeschränkt)</author>
+		<authorurl>http://www.andoca.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>		
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>	
+		<groupoptions>groupoptions.xml</groupoptions>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>
